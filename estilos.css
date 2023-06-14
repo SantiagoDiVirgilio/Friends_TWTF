@@ -35,6 +35,10 @@ div nav{
   .fondo h1{
     font-size: 5%;
   }
+  .fondo h2{
+    font-size: 5%;
+    color: #000000;
+  }
 }
 .formu{
   margin-left: 32%;
