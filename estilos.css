@@ -30,16 +30,18 @@ div nav{
   }
   .fondo img{
     max-width: 70%;
-    margin-bottom: 90%;
+    margin-bottom: 95%;
     margin-left: 20%;
   }
   .fondo h1{
     font-size: 1rem;
-    margin-bottom: 90%;
+    margin-bottom: 95%;
+    margin-left: 20%;
   }
   .fondo h2{
     font-size: 1rem;
-    margin-bottom: 90%;
+    margin-bottom: 95%;
+    margin-left: 20%;
   }
 }
 .formu{
