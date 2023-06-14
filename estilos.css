@@ -29,9 +29,9 @@ div nav{
     display: none;
   }
   .fondo img{
-    margin-right: 5%;
+    margin-right: 20%;
   }
-  .fondo div{
+  .fondo div h1, h2{
     font-size: 0.8rem;
     margin-bottom: 93%;
     margin-left: 23%;
