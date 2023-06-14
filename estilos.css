@@ -33,10 +33,10 @@ div nav{
     margin-top: 10%;
   }
   .fondo h1{
-    font-size: 5%;
+    font-size: 1rem;
   }
   .fondo h2{
-    font-size: 20%;
+    font-size: 0.5rem;
     color: #000000;
   }
 }
