@@ -30,13 +30,13 @@ div nav{
   }
   .fondo img{
     max-width: 70%;
-    margin-bottom: 90%;
+    margin-top: 10%;
   }
   .fondo h1{
     font-size: 5%;
   }
   .fondo h2{
-    font-size: 5%;
+    font-size: 20%;
     color: #000000;
   }
 }
