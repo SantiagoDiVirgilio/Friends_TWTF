@@ -28,10 +28,11 @@ div nav{
   header dropdown-content nav{
     display: none;
   }
-
-  footer{
-
+  .fondo img{
+    max-width: 70%;
+    margin-bottom: 40%;
   }
+
 }
 .formu{
   margin-left: 32%;
