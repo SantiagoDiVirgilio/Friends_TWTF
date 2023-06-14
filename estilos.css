@@ -31,13 +31,15 @@ div nav{
   .fondo img{
     max-width: 70%;
     margin-top: 1%;
+    justify-content: center;
   }
   .fondo h1{
     font-size: 1rem;
+    margin-top: 1%;
   }
   .fondo h2{
     font-size: 1rem;
-    color: #000000;
+    margin-top: 1%;
   }
 }
 .formu{
