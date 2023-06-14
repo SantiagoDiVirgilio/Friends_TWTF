@@ -28,6 +28,9 @@ div nav{
   header dropdown-content nav{
     display: none;
   }
+  .fondo img{
+    margin-left: 20%;
+  }
   .fondo div{
     font-size: 1rem;
     margin-bottom: 93%;
