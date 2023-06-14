@@ -21,6 +21,18 @@ div nav{
 	color: #000000;
 	font-family: 'Caveat', cursive;
 }
+@media (max-width: 480px){
+  header{
+    position: sticky;
+  }
+  header nav dropdown-content{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+}
 .formu{
   margin-left: 32%;
   color: #000000;
