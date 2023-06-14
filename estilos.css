@@ -25,12 +25,12 @@ div nav{
   header{
     position: sticky;
   }
-  header nav dropdown-content{
+  header dropdown-content nav{
     display: none;
   }
 
   footer{
-    display: none;
+
   }
 }
 .formu{
