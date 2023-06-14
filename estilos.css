@@ -28,13 +28,10 @@ div nav{
   header dropdown-content nav{
     display: none;
   }
-  .fondo img{
-    margin-right: 15%;
-  }
   .fondo div{
     font-size: 0.8rem;
     margin-bottom: 93%;
-    margin-left: 17%;
+    margin-left: 15%;
   }
 }
 .formu{
