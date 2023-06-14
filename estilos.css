@@ -33,6 +33,10 @@ div nav{
     margin-bottom: 93%;
     margin-left: 15%;
   }
+  section article{
+    margin-bottom: 80%;
+    font-size: 1rem;
+  }  
 }
 .formu{
   margin-left: 32%;
