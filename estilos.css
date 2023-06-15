@@ -34,15 +34,15 @@ div nav{
     margin-left: 15%;
   }
   .fondo div h1{
-    margin-left: 20%;
+    margin-left: 25%;
   }
   article h3{
     margin-top: 10%;
     font-size: 1rem;
-    color: #FFFFFF;
   }
   article p{
     font-size: 0.8rem;
+    color: #FFFFFF;
   }  
 }
 .formu{
