@@ -37,6 +37,9 @@ div nav{
   .fondo div h1{
     margin-left: 25%;
   }
+  article{
+    margin-top: 1%;
+  }
   article h3{
     margin-top: 3%;
     padding-top: 5%;
