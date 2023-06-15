@@ -37,11 +37,35 @@ div nav{
     margin-left: 25%;
   }
   article h3{
-    padding-top: 1%;
+    margin-top: 3%;
+    padding-top: 56%;
     font-size: 1.1rem;
   }
   article p{
-    margin-top: 5%;
+    margin-top: 3%;
+    font-size: 0.8rem;
+  }
+  footer img{
+  margin-top: 3%;
+  margin-left: 10%;
+  display: inline;
+  }
+  footer div{
+    text-align: center;
+    margin-left: 2%;
+    display: inline-block;
+  }
+  footer div a{
+    font-family: 'Caveat', cursive;
+    margin-left: 5%;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+  }
+  footer div h7{
+    font-family: 'Caveat', cursive;
+    margin-top: 7%;
+    margin-left: 5%;
+    color: #FFFFFF;
     font-size: 0.8rem;
   }  
 }
