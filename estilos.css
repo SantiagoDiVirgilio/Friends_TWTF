@@ -38,7 +38,7 @@ div nav{
   }
   article h3{
     margin-top: 3%;
-    padding-top: 56%;
+    padding-top: 0%;
     font-size: 1.1rem;
   }
   article p{
@@ -57,16 +57,16 @@ div nav{
   }
   footer div a{
     font-family: 'Caveat', cursive;
-    margin-left: 5%;
+    margin-left: 1%;
     color: #FFFFFF;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   footer div h7{
     font-family: 'Caveat', cursive;
     margin-top: 7%;
-    margin-left: 5%;
+    margin-left: 1%;
     color: #FFFFFF;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }  
 }
 .formu{
