@@ -41,7 +41,7 @@ div nav{
     margin-top: 1%;
   }
   article h3{
-    margin-top: -93%;
+    top: -93%;
     padding-top: 5%;
     font-size: 1.1rem;
   }
