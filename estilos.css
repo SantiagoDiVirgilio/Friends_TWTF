@@ -30,7 +30,7 @@ div nav{
   }
   .fondo div{
     font-size: 0.8rem;
-    margin-bottom: 93%;
+    /*margin-bottom: 93%;*/
     margin-left: 15%;
   }
   .fondo div h1{
@@ -38,7 +38,7 @@ div nav{
   }
   article h3{
     margin-top: 3%;
-    padding-top: 2%;
+    padding-top: 5%;
     font-size: 1.1rem;
   }
   article p{
@@ -53,7 +53,7 @@ div nav{
   footer div{
     text-align: center;
     margin-left: 2%;
-    display: inline-block;
+    display: inline-grid;
   }
   footer div a{
     font-family: 'Caveat', cursive;
