@@ -25,7 +25,7 @@ div nav{
   header{
     position: sticky;
   }
-  header .dropdown-content nav{
+  header .dropdown{
     display: none;
   }
   .fondo div{
