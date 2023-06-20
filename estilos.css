@@ -31,11 +31,11 @@ div nav{
   .fondo div{
     font-size: 0.8rem;
     margin-top: 1%;
-    margin-bottom: 75%;
-    margin-left: 25%;
+    margin-bottom: 70%;
+    margin-left: 20%;
   }
   .fondo div h1{
-    margin-left: 35%;
+    margin-left: 25%;
   }
   article{
     margin-top: 1%;
@@ -51,11 +51,11 @@ div nav{
   footer img{
   margin-top: 3%;
   margin-left: 10%;
-  display: inline;
+  display: inline-grid;
   }
   footer div{
     margin-left: 0.2%;
-    display: block;
+    display: inline-block;
   }
   footer div a{
     font-family: 'Caveat', cursive;
