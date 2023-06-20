@@ -59,16 +59,16 @@ div nav{
   }
   footer div a{
     font-family: 'Caveat', cursive;
-    margin-left: 0.2%;
     color: #FFFFFF;
     font-size: 0.2rem;
+    display: inline-block;
   }
   footer div h7{
     font-family: 'Caveat', cursive;
     margin-top: 7%;
-    margin-left: 0.2%;
     color: #FFFFFF;
-    font-size: 0.3rem;
+    font-size: 0.2rem;
+    display: inline-block;
   }  
 }
 .formu{
