@@ -31,14 +31,13 @@ div nav{
     top: 100%;
     width:100%;
   }
-  nav ul{
+  nav .dropdown{
     display: none;
   }
   .icon{
-   float: right; 
-   display: block; 
+     float: right; 
+     display: block; 
   }
-
   nav.responsive ul{
     display: block;
   }
@@ -97,7 +96,7 @@ div nav{
 .icon{ 
   display: none; 
   }
-  
+
 .formu{
   margin-left: 32%;
   color: #000000;
