@@ -31,7 +31,7 @@ div nav{
   .fondo div{
     font-size: 0.8rem;
     margin-top: 1%;
-    margin-bottom: 93%;
+    margin-bottom: 85%;
     margin-left: 15%;
   }
   .fondo div h1{
@@ -55,7 +55,7 @@ div nav{
   }
   footer div{
     margin-left: 0.2%;
-    display: inline-grid;
+    display: inline-block;
   }
   footer div a{
     font-family: 'Caveat', cursive;
