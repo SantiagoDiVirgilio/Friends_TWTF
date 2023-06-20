@@ -54,15 +54,14 @@ div nav{
   display: inline;
   }
   footer div{
-    text-align: center;
-    margin-left: 2%;
+    margin-left: 0.2%;
     display: inline-grid;
   }
   footer div a{
     font-family: 'Caveat', cursive;
-    margin-left: 1%;
+    margin-left: 0.2%;
     color: #FFFFFF;
-    font-size: 0.6rem;
+    font-size: 0.2rem;
   }
   footer div h7{
     font-family: 'Caveat', cursive;
