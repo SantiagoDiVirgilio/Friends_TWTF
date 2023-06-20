@@ -65,12 +65,11 @@ div nav{
     font-size: 0.6rem;
   }
   footer div h7{
-    display: none;
-    /*font-family: 'Caveat', cursive;
+    font-family: 'Caveat', cursive;
     margin-top: 7%;
-    margin-left: 1%;
+    margin-left: 0.2%;
     color: #FFFFFF;
-    font-size: 0.6rem;*/
+    font-size: 0.3rem;
   }  
 }
 .formu{
