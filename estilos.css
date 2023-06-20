@@ -22,9 +22,6 @@ div nav{
 	font-family: 'Caveat', cursive;
 }
 @media (max-width: 576px){
-  header{
-    position: sticky;
-  }
   nav {
     position: relative;
   }
