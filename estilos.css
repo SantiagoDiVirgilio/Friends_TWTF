@@ -26,6 +26,7 @@ div nav{
 }
 @media screen and (max-width: 480px){
   nav {
+    display: none;
     position: absolute;
     z-index:1;
     top: 100%;
@@ -37,6 +38,12 @@ div nav{
     display: block; 
   }
   nav.responsive ul{
+    position: relative; 
+    font-size: 1.3rem;
+    padding-right: 1.4rem;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Caveat', cursive;
     display: block;
   }
   nav.responsive ul li{
@@ -128,9 +135,9 @@ div nav{
   display: block;
 }
 .dropdown-content a {
-  	display: block;
+  display: block;
  	padding: 5px;
-  	text-decoration: none;
+  text-decoration: none;
  	font-size: 1.1rem;
 	padding-right: 1.4rem;
 	text-transform: uppercase;
