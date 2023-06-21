@@ -16,26 +16,26 @@
 			<a href="index.html"><img src="Imagenes/Logo_PC.png" alt="Logo FRIENDS">
 		</div>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-		<nav class="dropdown" id="menu_hamburguesa">Inicio
+		<nav  id="menu_hamburguesa">Inicio
 			<ul>
 				<li><a href="index.html"></a></li>
 			</ul>
 		</nav>
-		<nav class="dropdown" id="menu_hamburguesa">Personajes
+		<nav  id="menu_hamburguesa">Personajes
 			<ul class="dropdown-content">
 				<li><a href="protagonistas.html">Protagonistas</a></li>
 				<li><a href="secundarios.html">Personajes Secundarios</a></li>
 				<li><a href="cameos.html">Estrellas Invitadas</a></li>
 			</ul>
 		</nav>
-		<nav class="dropdown" id="menu_hamburguesa">¿Que es<br>F·R·I·E·N·D·S?
+		<nav  id="menu_hamburguesa">¿Que es<br>F·R·I·E·N·D·S?
 			<ul class="dropdown-content">
 				<li><a href="resumen.html">Resumen</a></li>
 				<li><a href="origen.html">Origen</a></li>
 				<li><a href="derivados.html">Derivados</a></li>
 			</ul>
 		</nav>
-		<nav class="dropdown" id="menu_hamburguesa">Detrás de<br>Cámaras
+		<nav  id="menu_hamburguesa">Detrás de<br>Cámaras
 			<ul class="dropdown-content">
 				<li><a href="produccion.html">Producción</a></li>
 				<li><a href="impacto.html">Impacto Cultural</a></li>
@@ -48,7 +48,7 @@
 				<li><a href="galeria.html">Galería</a></li>
 			</ul>
 		</nav>
-		<nav class="dropdown" id="menu_hamburguesa">
+		<nav  id="menu_hamburguesa">
 			<ul>
 				<li><a href="contacto.html">Contacto</a></li>
 			</ul>
@@ -111,7 +111,7 @@
 	<script type="text/javascript">
         function myFunction() {
           var x = document.getElementById("menu_hamburguesa");
-          if (x.className === "dropdown") {
+          if (x.className === "") {
               x.className += "responsive";
             } 
           else {
