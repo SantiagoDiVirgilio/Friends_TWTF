@@ -25,14 +25,17 @@ div nav{
 	font-family: 'Caveat', cursive;
 }
 @media screen and (max-width: 480px){
-  nav {
+  nav {       /*Cuando activo el menú hamburguesa*/
     position: relative; 
-    font-size: 1.3rem;
+    font-size: 0.7rem;
     padding-right: 1.4rem;
     text-transform: uppercase;
     color: #000000;
     font-family: 'Caveat', cursive;
     display: block;
+  }
+  nav a{
+    color: #000000;
   }
   .icon{
     margin-top: 2%;
@@ -41,12 +44,12 @@ div nav{
   }
   nav.responsive ul{
     position: relative; 
-    font-size: 1.3rem;
+    font-size: 0.7rem;
     padding-right: 1.4rem;
     text-transform: uppercase;
     color: #000000;
     font-family: 'Caveat', cursive;
-    display: block;
+    display: inline-block;
   }
   nav.responsive ul li{
     display: block;
