@@ -35,6 +35,9 @@ div nav{
     display: block;
     justify-content: center;
   }
+  .dropdown{
+    display: none;
+  }
   nav a{
     color: #000000;
   }
@@ -44,13 +47,12 @@ div nav{
     display: block; 
   }
   nav.responsive ul{
- /*   position: relative; 
+    position: relative; 
     font-size: 0.9rem;
     padding-right: 1.4rem;
     text-transform: uppercase;
     color: #000000;
-    font-family: 'Caveat', cursive;*/
-    display: none;
+    font-family: 'Caveat', cursive;
   }
   nav.responsive ul li{
     display: block;
