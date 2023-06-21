@@ -82,6 +82,7 @@ div nav{
     color: #FFFFFF;
     font-size: 0.2rem;
     display: inline-block;
+    justify-content: space-between;
   }
   footer div h7{
     font-family: 'Caveat', cursive;
