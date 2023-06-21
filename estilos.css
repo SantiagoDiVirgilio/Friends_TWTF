@@ -44,12 +44,12 @@ div nav{
     display: block; 
   }
   nav.responsive ul{
-    position: relative; 
+ /*   position: relative; 
     font-size: 0.9rem;
     padding-right: 1.4rem;
     text-transform: uppercase;
     color: #000000;
-    font-family: 'Caveat', cursive;
+    font-family: 'Caveat', cursive;*/
     display: none;
   }
   nav.responsive ul li{
