@@ -44,8 +44,8 @@ div nav{
     padding-right: 0;
   }
   .fondo{
-    width: 5%;
-    height: 5px;
+    width: 100%;
+    height: 999px;
 }
   .fondo div{
     font-size: 0.8rem;
