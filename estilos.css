@@ -35,7 +35,7 @@ div nav{
     display: block;
     justify-content: center;
   }
-  .dropdown{
+  nav.dropdown{
     display: none;
   }
   nav a{
