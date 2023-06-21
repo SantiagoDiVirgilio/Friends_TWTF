@@ -26,11 +26,13 @@ div nav{
 }
 @media screen and (max-width: 480px){
   nav {
-    display: none;
-    position: absolute;
-    z-index:1;
-    top: 100%;
-    width:100%;
+    position: relative; 
+    font-size: 1.3rem;
+    padding-right: 1.4rem;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Caveat', cursive;
+    display: block;
   }
   .icon{
     margin-top: 2%;
