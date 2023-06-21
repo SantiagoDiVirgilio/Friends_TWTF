@@ -28,22 +28,19 @@ div nav{
     top: 100%;
     width:100%;
   }
-  nav .dropdown{
-    display: none;
-  }
   .icon{
      float: right; 
      display: block; 
   }
-  nav.responsive ul{
+  nav.dropdown ul{
     display: block;
   }
-  nav.responsive ul li{
+  nav.dropdown ul li{
     display: block;
     text-align: center;
     padding: 0.5rem;
   }
-  nav.responsive ul li a{
+  nav.dropdown ul li a{
     padding-right: 0;
   }
   .fondo{
@@ -91,6 +88,7 @@ div nav{
     color: #FFFFFF;
     font-size: 0.2rem;
     display: inline-block;
+    justify-content: space-between;
   }  
 }
 
