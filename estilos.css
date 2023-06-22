@@ -38,7 +38,7 @@ div nav{
     width: 100%;
   }
   ul{
-
+    display: none;
   }
   nav.dropdown{
     display: none;
@@ -53,7 +53,7 @@ div nav{
   }
   nav.responsive ul{
     position: relative; 
-    font-size: 0.1rem;
+    font-size: 0.9rem;
     padding-right: 1.4rem;
     text-transform: uppercase;
     color: #000000;
@@ -83,6 +83,9 @@ div nav{
   .fondo article{
     height: 560px;
     margin-top: 1%;
+  }
+  article.fondo{
+    height: 360px;
   }
   article h3{
     top: -93%;
