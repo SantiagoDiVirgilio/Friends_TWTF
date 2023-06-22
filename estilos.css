@@ -48,6 +48,13 @@ div nav{
     padding: 0.5rem;
   }
   nav.responsive ul li a{
+    display: inline-block;
+    position: relative; 
+    font-size: 0.9rem;
+    padding-right: 1.4rem;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Caveat', cursive;
     padding-right: 0;
   }
   .fondo{
