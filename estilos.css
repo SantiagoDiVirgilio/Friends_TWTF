@@ -20,6 +20,9 @@ header{
 a{
 	text-decoration: none;
 }
+nav ul li{
+  display: inline-block;
+}
 div nav{
 	color: #000000;
 	font-family: 'Caveat', cursive;
