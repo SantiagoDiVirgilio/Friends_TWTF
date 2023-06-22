@@ -20,8 +20,11 @@ header{
 a{
 	text-decoration: none;
 }
+nav ul{
+  display: inline-block;
+}
 nav ul li{
-    display: inline-block;
+  display: inline-block;
   position: relative; 
   font-size: 1.3rem;
   padding-right: 1.4rem;
