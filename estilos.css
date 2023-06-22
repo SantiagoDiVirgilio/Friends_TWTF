@@ -35,12 +35,8 @@ div nav{
     font-family: 'Caveat', cursive;
     display: block;
     justify-content: center;*/
-    display: none;
   }
   ul{
-  }
-  nav.responsive{
-    
   }
   nav a{
     color: #000000;
