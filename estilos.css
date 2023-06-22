@@ -25,11 +25,6 @@ div nav{
 	font-family: 'Caveat', cursive;
 }
 @media screen and (max-width: 480px){
-  .icon{
-    margin-top: 2%;
-    float: right; 
-    display: block; 
-  }
   nav {       /*Cuando activo el menú hamburguesa*/
     width: 100%;
   }
@@ -38,6 +33,11 @@ div nav{
   }
   nav a{
     color: #000000;
+  }
+  .icon{
+    margin-top: 2%;
+    float: right; 
+    display: block; 
   }
   nav.responsive ul{
     display: block;
