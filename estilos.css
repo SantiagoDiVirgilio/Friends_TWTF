@@ -53,7 +53,7 @@ div nav{
   }
   nav.responsive ul{
     position: relative; 
-    font-size: 0.9rem;
+    font-size: 0.1rem;
     padding-right: 1.4rem;
     text-transform: uppercase;
     color: #000000;
@@ -80,8 +80,8 @@ div nav{
   .fondo div h1{
     margin-left: 25%;
   }
-  article{
-    height: 790px;
+  .fondo article{
+    height: 560px;
     margin-top: 1%;
   }
   article h3{
