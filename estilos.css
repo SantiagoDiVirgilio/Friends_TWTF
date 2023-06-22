@@ -35,10 +35,9 @@ div nav{
     font-family: 'Caveat', cursive;
     display: block;
     justify-content: center;*/
-    width: 100%;
+    display: none;
   }
   ul{
-    display: none;
   }
   nav.dropdown{
     display: none;
@@ -80,12 +79,8 @@ div nav{
   .fondo div h1{
     margin-left: 25%;
   }
-  .fondo article{
-    height: 560px;
-    margin-top: 1%;
-  }
   article.fondo{
-    height: 360px;
+    height: 260px;
   }
   article h3{
     top: -93%;
