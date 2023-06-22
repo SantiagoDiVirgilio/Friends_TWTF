@@ -26,7 +26,6 @@ div nav{
 }
 @media screen and (max-width: 480px){
   nav {       /*Cuando activo el menú hamburguesa*/
-  /*
     position: relative; 
     font-size: 0.9rem;
     padding-right: 1.4rem;
@@ -34,9 +33,10 @@ div nav{
     color: #000000;
     font-family: 'Caveat', cursive;
     display: block;
-    justify-content: center;*/
+    justify-content: center;
   }
   ul{
+    display: none;
   }
   nav a{
     color: #000000;
