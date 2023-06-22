@@ -15,6 +15,7 @@
 		<div>
 			<a href="index.html"><img src="Imagenes/Logo_PC.png" alt="Logo FRIENDS">
 		</div>
+		<!--
 		 <nav id="menu_hamburguesa">
 		 <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
             <ul>
@@ -24,14 +25,13 @@
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-		<!--
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		-->
 		<nav class="dropdown" id="menu_hamburguesa">Inicio
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 			<ul>
 				<li><a href="index.html"></a></li>
 			</ul>
 		</nav>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 		<nav class="dropdown" id="menu_hamburguesa">Personajes
 			<ul class="dropdown-content">
 				<li><a href="protagonistas.html">Protagonistas</a></li>
@@ -64,7 +64,7 @@
 				<li><a href="contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
-	-->
+	
 	</header>
 	<section>
 		<article class="fondo">
@@ -123,7 +123,7 @@
 	<script type="text/javascript">
         function myFunction() {
           var x = document.getElementById("menu_hamburguesa");
-          if (x.className === "") {
+          if (x.className === "dropdown") {
               x.className += "responsive";
             } 
           else {
