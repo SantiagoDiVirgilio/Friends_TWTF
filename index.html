@@ -26,13 +26,15 @@
             </ul>
         </nav>
 		-->
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>
+		
 		<nav class="dropdown" id="menu_hamburguesa">
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>
 			<ul>
 				<li><a href="index.html">Inicio</a></li>
 			</ul>
 		</nav>
 		<nav class="dropdown" id="menu_hamburguesa">Personajes
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>
 			<ul class="dropdown-content">
 				<li><a href="protagonistas.html">Protagonistas</a></li>
 				<li><a href="secundarios.html">Personajes Secundarios</a></li>
@@ -122,7 +124,6 @@
 
 	<script type="text/javascript">
         function myFunction() {
-        while( x != "menu_hamburguesa"){
           var x = document.getElementById("menu_hamburguesa");
           if (x.className === "dropdown") {
               x.className = "responsive";
@@ -130,7 +131,6 @@
           else {
               x.className = "dropdown";
           	}
-          }
 		}
     </script>
 </body>
