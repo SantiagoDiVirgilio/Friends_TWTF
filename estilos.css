@@ -26,14 +26,16 @@ div nav{
 }
 @media screen and (max-width: 480px){
   nav {       /*Cuando activo el menú hamburguesa*/
+  /*
     position: relative; 
-    font-size: 0.1rem;
+    font-size: 0.9rem;
     padding-right: 1.4rem;
     text-transform: uppercase;
     color: #000000;
     font-family: 'Caveat', cursive;
     display: block;
-    justify-content: center;
+    justify-content: center;*/
+    width: 100%;
   }
   ul{
 
