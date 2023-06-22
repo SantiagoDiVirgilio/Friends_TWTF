@@ -28,7 +28,7 @@ div nav{
   nav {       /*Cuando activo el menú hamburguesa*/
     width: 100%;
   }
-  nav.dropdown{
+  .dropdown{
     display: none;
   }
   nav a{
