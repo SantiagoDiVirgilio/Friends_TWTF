@@ -21,7 +21,13 @@ a{
 	text-decoration: none;
 }
 nav ul li{
-  display: inline-block;
+    display: inline-block;
+  position: relative; 
+  font-size: 1.3rem;
+  padding-right: 1.4rem;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'Caveat', cursive;
 }
 div nav{
 	color: #000000;
