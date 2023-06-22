@@ -29,6 +29,9 @@ div nav{
     width: 100%;
     color: #000000;
   }
+  nav div{
+    display: flex;
+  }
   nav.dropdown{
     display: none;
   }
@@ -52,7 +55,7 @@ div nav{
     display: inline-block;
     position: relative; 
     font-size: 1rem;
-    margin-left: 50%;
+    margin-right: 50%;
     text-transform: uppercase;
     color: #000000;
     font-family: 'Caveat', cursive;
