@@ -122,16 +122,7 @@ div nav{
   border-style: groove;
   width: 34%;
 }
-.dropdown{
-	display: inline-block;
-	position: relative; 
-	font-size: 1.3rem;
-	padding-right: 1.4rem;
-	text-transform: uppercase;
-	color: #000000;
-	font-family: 'Caveat', cursive;
-}
-.dropdown a{
+nav ul li a{
 	color: #000000;
 }
 .dropdown-content{
@@ -141,7 +132,7 @@ div nav{
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-.dropdown:hover .dropdown-content {
+nav ul:hover .dropdown-content {
   display: block;
 }
 .dropdown-content a {
