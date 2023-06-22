@@ -47,12 +47,7 @@ div nav{
     display: block; 
   }
   nav.responsive ul{
-    position: relative; 
-    font-size: 0.9rem;
-    padding-right: 1.4rem;
-    text-transform: uppercase;
-    color: #000000;
-    font-family: 'Caveat', cursive;
+    display: block;
   }
   nav.responsive ul li{
     display: block;
@@ -93,16 +88,14 @@ div nav{
   }
   footer div{
     padding-right: 0%;
-    margin-left: 0.2%;
+    margin-left: 99%;
     display: inline-block;
-    justify-content: space-around;
   }
   footer div a{
     font-family: 'Caveat', cursive;
     color: #FFFFFF;
     font-size: 0.2rem;
     display: inline-block;
-    justify-content: space-between;
   }
   footer div h7{
     font-family: 'Caveat', cursive;
@@ -110,7 +103,6 @@ div nav{
     color: #FFFFFF;
     font-size: 0.2rem;
     display: inline-block;
-    justify-content: space-between;
   }  
 }
 
