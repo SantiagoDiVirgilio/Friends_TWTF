@@ -20,11 +20,8 @@ header{
 a{
 	text-decoration: none;
 }
-nav ul{
-  display: inline-block;
-}
 nav ul li{
-  display: inline-block;
+    display: inline-block;
   position: relative; 
   font-size: 1.3rem;
   padding-right: 1.4rem;
@@ -125,7 +122,16 @@ div nav{
   border-style: groove;
   width: 34%;
 }
-nav ul li a{
+.dropdown{
+	display: inline-block;
+	position: relative; 
+	font-size: 1.3rem;
+	padding-right: 1.4rem;
+	text-transform: uppercase;
+	color: #000000;
+	font-family: 'Caveat', cursive;
+}
+.dropdown a{
 	color: #000000;
 }
 .dropdown-content{
@@ -135,7 +141,7 @@ nav ul li a{
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-nav ul li:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
 .dropdown-content a {
