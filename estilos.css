@@ -25,7 +25,7 @@ nav{
   display: flex;
   position: relative; 
   font-size: 1.3rem;
-  padding-right: 1.2rem;
+  padding-right: 1.4rem;
   text-transform: uppercase;
   color: #000000;
   font-family: 'Caveat', cursive;
@@ -36,7 +36,7 @@ nav{
 nav div ul{
   position: relative; 
   font-size: 1.3rem;
-  padding-right: 1.2rem;
+  padding-right: 1.4rem;
   text-transform: uppercase;
   color: #000000;
   font-family: 'Caveat', cursive;
@@ -44,7 +44,7 @@ nav div ul{
 nav ul li{
   list-style: none;
 }
- /* Dropdown */
+ /* Menú desplegable de la versión de escritorio */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -54,7 +54,7 @@ nav ul li{
   position: absolute;
   z-index: 1;
   min-width: 160px;
-  background-color: #f6f6f6;
+  background-color: #EFEDEE;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
 }
@@ -63,7 +63,7 @@ nav ul li{
 }
 .dropdown:hover .dropdown-content {
   display: block;
-  color: #C9C9C9;
+  color: #c9c9c9;
 }
 div nav{
 	color: #000000;
