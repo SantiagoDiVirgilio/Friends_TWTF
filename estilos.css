@@ -33,6 +33,9 @@ nav{
   justify-content: space-around;
   list-style: none
 }
+nav ul{
+  margin-right: 30%;
+}
 nav div ul{
   position: relative; 
   font-size: 1.3rem;
