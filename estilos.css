@@ -397,6 +397,7 @@ footer div h7{
 
 @media screen and (max-width: 480px){
   nav {
+   margin-left: 3%;
    display: block;   
    width: 100%;
    color: #000000;
@@ -455,7 +456,7 @@ footer div h7{
   footer img{
   margin-top: 3%;
   margin-left: 10%;
-  display: inline-grid;
+  display: inline-block;
   }
   footer div{
     padding-right: 0%;
@@ -465,14 +466,14 @@ footer div h7{
   footer div a{
     font-family: 'Caveat', cursive;
     color: #FFFFFF;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     display: inline-block;
   }
   footer div h7{
     font-family: 'Caveat', cursive;
     margin-top: 7%;
     color: #FFFFFF;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     display: inline-block;
   }
   .formu{
@@ -480,7 +481,7 @@ footer div h7{
   color: #000000;
   font-family: 'Caveat', cursive;
   border-style: groove;
-  width: 50%;
+  width: 100%;
   }
 
 }
