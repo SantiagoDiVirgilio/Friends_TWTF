@@ -456,7 +456,7 @@ footer div h7{
   footer img{
   margin-top: 3%;
   margin-left: 10%;
-  display: inline-block;
+  display: inline-grid;
   }
   footer div{
     padding-right: 0%;
@@ -467,7 +467,7 @@ footer div h7{
     font-family: 'Caveat', cursive;
     color: #FFFFFF;
     font-size: 0.9rem;
-    display: inline-grid;
+    display: inline-block;
   }
   footer div h7{
     font-family: 'Caveat', cursive;
@@ -482,7 +482,7 @@ footer div h7{
   color: #000000;
   font-family: 'Caveat', cursive;
   border-style: groove;
-  width: 90%;
+  width: 85%;
   }
 
 }
