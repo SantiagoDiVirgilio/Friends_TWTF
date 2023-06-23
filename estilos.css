@@ -112,13 +112,13 @@ div nav{
 .lightbox-min{ /*Para las imágenes de la primer fila*/
 	margin-left: 1.7%;
   margin-top: 1.7%;
-  width: 30%;
+  width: 40%;
 }
 
 .lightbox-min-2{ /*Para las imágenes de la segunda fila en adelante*/
 	margin-top: 2%; 
 	margin-left: 1.7%;
-  width: 30%;
+  width: 40%;
 }
 
 .lb-loader,.lightbox{
