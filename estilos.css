@@ -31,8 +31,9 @@ nav{
   font-family: 'Caveat', cursive;
   align-items: center;
   justify-content: space-around;
+  list-style: none
 }
-nav ul{
+nav div ul{
   position: relative; 
   font-size: 1.3rem;
   padding-right: 1.4rem;
