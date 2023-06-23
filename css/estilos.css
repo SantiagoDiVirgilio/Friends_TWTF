@@ -60,6 +60,7 @@ nav ul li{
 }
 .dropdown a {
   display: block;
+  background-color: transparent;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -283,7 +284,7 @@ body.lb-disable-scrolling {
   color: #ccc;
 }
 
-.lb-data .lb-details {
+.lb-data .lb-details { /*Opciones del texto agregado de las imágenes*/
   width: 85%;
   float: left;
   text-align: left;
@@ -428,8 +429,22 @@ footer div h7{
     margin-right: 10%;
     text-transform: uppercase;
     color: #000000;
-    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
   }
+  article.fondo div img{
+    margin-top: 1%;
+  }
+  .lightbox-min{
+  margin-left: 3%;
+  margin-top: 1.7%;
+  width: 45%;
+}
+
+.lightbox-min-2{
+  margin-top: 2%; 
+  margin-left: 3%;
+  width: 45%;
+}
   .fondo{
     width: 100%;
     height: 9px;
@@ -450,37 +465,55 @@ footer div h7{
     padding-top: 5%;
     font-size: 1.1rem;
   }
+  .info_per{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 2.5%;
+  color: #000000;
+  font-size: 20px;
+  display: inline;
+}
+div h1{
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
+div h2{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 50%;
+  color: #FFFFFF;
+}
   article p{
     font-size: 0.8rem;
   }
   footer img{
   margin-top: 3%;
-  margin-left: 10%;
-  display: inline-grid;
+  margin-left: 17%;
+  display: inline-block;
   }
   footer div{
-    padding-right: 0%;
-    margin-left: 9%;
+    margin-left: 7%;
     display: inline-grid;
   }
   footer div a{
-    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size: 0.9rem;
     display: inline-block;
+    margin-left: 7%; 
   }
   footer div h7{
-    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-top: 7%;
     color: #FFFFFF;
     font-size: 0.9rem;
-    display: inline-grid;
+    display: inline-block;
+    align-items: center;
+    margin-left: 7%; 
   }
   .formu{
   margin-top: 2%;
   margin-left: 5%;
   color: #000000;
-  font-family: 'Caveat', cursive;
+  font-family: 'Roboto', sans-serif;
   border-style: groove;
   width: 85%;
   }
