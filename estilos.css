@@ -20,7 +20,7 @@ header{
 a{
 	text-decoration: none;
 }
-nav ul li{
+nav{
   display: inline-block;
   position: relative; 
   font-size: 1.3rem;
@@ -30,13 +30,15 @@ nav ul li{
   font-family: 'Caveat', cursive;
 }
 nav ul{
-  display: inline-block;
   position: relative; 
   font-size: 1.3rem;
   padding-right: 1.4rem;
   text-transform: uppercase;
   color: #000000;
   font-family: 'Caveat', cursive;
+}
+#desplegable ul li:hover {
+ background:#5b78a7;
 }
 #desplegable ul ul{
   display:none;
@@ -46,7 +48,7 @@ nav ul{
   background:#eee;
   padding:0;
 }
-ul ul li {
+#desplegable ul ul li {
  float:none;
  width:150px
 }
