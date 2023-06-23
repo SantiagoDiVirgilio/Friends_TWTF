@@ -431,6 +431,9 @@ footer div h7{
     color: #000000;
     font-family: 'Roboto', sans-serif;
   }
+  article.fondo div img{
+    display: all;
+  }
   .lightbox-min{
   margin-left: 3%;
   margin-top: 1.7%;
