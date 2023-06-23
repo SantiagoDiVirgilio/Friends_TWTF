@@ -14,43 +14,55 @@
 		<div>
 			<a href="index.html"><img src="Imagenes/Logo_PC.png" alt="Logo FRIENDS">
 		</div>
-		<nav class="dropdown">Inicio
+		
+		<nav id="menu_hamburguesa">
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		<div class="dropdown">
 			<ul>
-				<li><a href="index.html"></a></li>
+				<li><a href="index.html">Inicio</a></li>
 			</ul>
-		</nav>
-		<!--<a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a> -->
-		<nav class="dropdown">Personajes
-			<ul class="dropdown-content">
-				<li><a href="protagonistas.html">Protagonistas</a></li>
-				<li><a href="secundarios.html">Personajes Secundarios</a></li>
-				<li><a href="cameos.html">Estrellas Invitadas</a></li>
-			</ul>
-		</nav>
-		<nav class="dropdown">¿Que es<br>F·R·I·E·N·D·S?
-			<ul class="dropdown-content">
-				<li><a href="resumen.html">Resumen</a></li>
-				<li><a href="origen.html">Origen</a></li>
-				<li><a href="derivados.html">Derivados</a></li>
-			</ul>
-		</nav>
-		<nav class="dropdown">Detrás de <br>Cámaras
-			<ul class="dropdown-content">
-				<li><a href="produccion.html">Producción</a></li>
-				<li><a href="impacto.html">Impacto Cultural</a></li>
-				<li><a href="temporadas.html">Temporadas</a></li>
-				<li><a href="prensa.html">Datos de Prensa</a></li>
-			</ul>
-		</nav>
-		<nav class="dropdown">
+		</div>
+			<div class="dropdown">
+				<ul>
+					<li><a>Personajes</a></li>
+					<div class="dropdown-content">
+						<li><a href="protagonistas.html">Protagonistas</a></li>
+						<li><a href="secundarios.html">Personajes Secundarios</a></li>
+						<li><a href="cameos.html">Estrellas Invitadas</a></li>
+					</div>
+				</ul>
+			</div>
+			<div class="dropdown">
+				<ul>
+					<li><a>¿Que es<br>F·R·I·E·N·D·S?</a></li>
+					<div class="dropdown-content">
+						<li><a href="resumen.html">Resumen</a></li>
+						<li><a href="origen.html">Origen</a></li>
+						<li><a href="derivados.html">Derivados</a></li>
+					</div>
+				</ul>
+			</div>
+			<div class="dropdown">
+				<ul>
+					<li><a>Detrás de<br>Cámaras</a></li>
+					<div class="dropdown-content">
+						<li><a href="produccion.html">Producción</a></li>
+						<li><a href="impacto.html">Impacto Cultural</a></li>
+						<li><a href="temporadas.html">Temporadas</a></li>
+						<li><a href="prensa.html">Datos de Prensa</a></li>
+					</div>
+				</ul>
+			</div>
+		<div class="dropdown">
 			<ul>
 				<li><a href="galeria.html">Galería</a></li>
 			</ul>
-		</nav>
-		<nav class="dropdown">
+		</div>
+		<div class="dropdown">
 			<ul>
 				<li><a href="contacto.html">Contacto</a></li>
 			</ul>
+		</div>
 		</nav>
 	</header>
 	<section>
@@ -154,5 +166,18 @@
 		<a href="https://www.instagram.com/"><img src="Imagenes/Iconos_Personajes/Icono_Instagram.png" alt="Instagram"></a>
 		<a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><img src="Imagenes/Iconos_Personajes/Icono_Twitter.png" alt="Twitter"></a>
 	</footer>
+	
+	<script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_hamburguesa");
+          if (x.className === "") {
+              x.className = "responsive";
+            } 
+          else {
+              x.className = "";
+          	}
+		}
+    </script>
+
 </body>
 </html>

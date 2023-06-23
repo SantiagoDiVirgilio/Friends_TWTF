@@ -69,88 +69,6 @@ div nav{
 	color: #000000;
 	font-family: 'Caveat', cursive;
 }
-@media screen and (max-width: 480px){
-  nav {       /*Cuando activo el menú hamburguesa*/
-    width: 100%;
-    color: #000000;
-  }
-  nav{
-    display: none;
-  }
-  nav a{
-    color: #000000;
-  }
-  .icon{
-    margin-top: 2%;
-    float: right; 
-    display: block; 
-  }
-  nav.responsive ul{
-    display: block;
-  }
-  nav.responsive ul li{
-    display: block;
-    text-align: center;
-    padding: 0.5rem;
-  }
-  nav.responsive ul li a{
-    display: block;
-    position: relative; 
-    font-size: 1rem;
-    margin-right: 10%;
-    text-transform: uppercase;
-    color: #000000;
-    font-family: 'Caveat', cursive;
-  }
-  .fondo{
-    width: 100%;
-    height: 9px;
-}
-  .fondo div{
-    font-size: 0.8rem;
-    margin-top: 1%;
-    margin-bottom: 90%;
-    margin-left: 20%;
-  }
-  .fondo div h1{
-    margin-left: 25%;
-  }
-  article.fondo{
-    height: 260px;
-  }
-  article h3{
-    top: -93%;
-    padding-top: 5%;
-    font-size: 1.1rem;
-  }
-  article p{
-    font-size: 0.8rem;
-  }
-  footer img{
-  margin-top: 3%;
-  margin-left: 10%;
-  display: inline-grid;
-  }
-  footer div{
-    padding-right: 0%;
-    margin-left: 990%;
-    display: inline-block;
-  }
-  footer div a{
-    font-family: 'Caveat', cursive;
-    color: #FFFFFF;
-    font-size: 0.2rem;
-    display: inline-block;
-  }
-  footer div h7{
-    font-family: 'Caveat', cursive;
-    margin-top: 7%;
-    color: #FFFFFF;
-    font-size: 0.2rem;
-    display: inline-block;
-  }  
-}
-
 .formu{
   margin-left: 32%;
   color: #000000;
@@ -475,4 +393,93 @@ footer div h7{
   margin-left: 15%;
   color: #FFFFFF;
   font-size: 0.8rem;
+}
+@media screen and (max-width: 480px){
+  nav {       /*Cuando activo el menú hamburguesa*/
+    width: 100%;
+    color: #000000;
+  }
+  nav ul{
+    display: none;
+  }
+  nav a{
+    color: #000000;
+  }
+  .icon{
+    margin-top: 2%;
+    float: right; 
+    display: block; 
+  }
+  nav.responsive ul{
+    display: block;
+  }
+  nav.responsive ul li{
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  nav.responsive ul li a{
+    display: block;
+    position: relative; 
+    font-size: 1rem;
+    margin-right: 10%;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Caveat', cursive;
+  }
+  .fondo{
+    width: 100%;
+    height: 9px;
+}
+  .fondo div{
+    font-size: 0.8rem;
+    margin-top: 1%;
+    margin-bottom: 90%;
+    margin-left: 20%;
+  }
+  .fondo div h1{
+    margin-left: 25%;
+  }
+  article.fondo{
+    height: 260px;
+  }
+  article h3{
+    top: -93%;
+    padding-top: 5%;
+    font-size: 1.1rem;
+  }
+  article p{
+    font-size: 0.8rem;
+  }
+  footer img{
+  margin-top: 3%;
+  margin-left: 10%;
+  display: inline-grid;
+  }
+  footer div{
+    padding-right: 0%;
+    margin-left: 990%;
+    display: inline-block;
+  }
+  footer div a{
+    font-family: 'Caveat', cursive;
+    color: #FFFFFF;
+    font-size: 0.2rem;
+    display: inline-block;
+  }
+  footer div h7{
+    font-family: 'Caveat', cursive;
+    margin-top: 7%;
+    color: #FFFFFF;
+    font-size: 0.2rem;
+    display: inline-block;
+  }
+  .formu{
+  margin-left: 32%;
+  color: #000000;
+  font-family: 'Caveat', cursive;
+  border-style: groove;
+  width: 5%;
+}
+
 }
