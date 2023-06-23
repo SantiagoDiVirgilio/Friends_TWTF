@@ -94,7 +94,7 @@ div nav{
     padding: 0.5rem;
   }
   nav.responsive ul li a{
-    display: inline-block;
+    display: block;
     position: relative; 
     font-size: 1rem;
     margin-right: 10%;
