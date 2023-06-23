@@ -60,6 +60,7 @@ nav ul li{
 }
 .dropdown a {
   display: block;
+  background-color: transparent;
 }
 .dropdown:hover .dropdown-content {
   display: block;
