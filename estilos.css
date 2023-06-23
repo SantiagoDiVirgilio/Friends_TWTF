@@ -112,13 +112,13 @@ div nav{
 .lightbox-min{ /*Para las imágenes de la primer fila*/
 	margin-left: 1.7%;
   margin-top: 1.7%;
-  width: 60%;
+  width: 30%;
 }
 
 .lightbox-min-2{ /*Para las imágenes de la segunda fila en adelante*/
 	margin-top: 2%; 
 	margin-left: 1.7%;
-  width: 60%;
+  width: 30%;
 }
 
 .lb-loader,.lightbox{
@@ -431,7 +431,7 @@ footer div h7{
     margin-right: 10%;
     text-transform: uppercase;
     color: #000000;
-    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
   }
   .fondo{
     width: 100%;
@@ -467,24 +467,24 @@ footer div h7{
     display: inline-grid;
   }
   footer div a{
-    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size: 0.9rem;
     display: inline-block;
   }
   footer div h7{
-    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-top: 7%;
     color: #FFFFFF;
     font-size: 0.9rem;
-    display: inline-grid;
+    display: inline-block;
     align-items: center;
   }
   .formu{
   margin-top: 2%;
   margin-left: 5%;
   color: #000000;
-  font-family: 'Caveat', cursive;
+  font-family: 'Roboto', sans-serif;
   border-style: groove;
   width: 85%;
   }
