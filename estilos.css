@@ -110,15 +110,13 @@ div nav{
 
 /*Código de Lightbox */
 .lightbox-min{ /*Para las imágenes de la primer fila*/
-	margin-left: 3%;
+	margin-left: 1.7%;
   margin-top: 1.7%;
-  width: 45%;
 }
 
 .lightbox-min-2{ /*Para las imágenes de la segunda fila en adelante*/
 	margin-top: 2%; 
-	margin-left: 3%;
-  width: 45%;
+	margin-left: 1.7%;
 }
 
 .lb-loader,.lightbox{
@@ -433,6 +431,17 @@ footer div h7{
     color: #000000;
     font-family: 'Roboto', sans-serif;
   }
+  .lightbox-min{
+  margin-left: 3%;
+  margin-top: 1.7%;
+  width: 45%;
+}
+
+.lightbox-min-2{
+  margin-top: 2%; 
+  margin-left: 3%;
+  width: 45%;
+}
   .fondo{
     width: 100%;
     height: 9px;
@@ -479,7 +488,7 @@ div h2{
   }
   footer div{
     padding-right: 0%;
-    margin-left: 7%;
+    margin-left: 4%;
     display: inline-grid;
   }
   footer div a{
