@@ -155,7 +155,7 @@ body.lb-disable-scrolling {
 .lightbox .lb-image {
   display: inline-block;
   height: auto;
-  max-width: inherit;
+  max-width: 2px;
   max-height: none;
   border-radius: 3px;
 
@@ -468,7 +468,7 @@ footer div h7{
     font-family: 'Caveat', cursive;
     color: #FFFFFF;
     font-size: 0.9rem;
-    display: inline-grid;
+    display: inline-block;
   }
   footer div h7{
     font-family: 'Caveat', cursive;
