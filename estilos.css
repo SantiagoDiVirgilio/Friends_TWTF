@@ -36,7 +36,7 @@ nav{
 nav div ul{
   position: relative; 
   font-size: 1.3rem;
-  padding-right: 1.4rem;
+  padding-right: 1.8rem;
   text-transform: uppercase;
   color: #000000;
   font-family: 'Caveat', cursive;
@@ -63,7 +63,7 @@ nav ul li{
 }
 .dropdown:hover .dropdown-content {
   display: block;
-  color: #c9c9c9;
+  color: #C9C9C9;
 }
 div nav{
 	color: #000000;
