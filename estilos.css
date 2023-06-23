@@ -453,6 +453,22 @@ footer div h7{
     padding-top: 5%;
     font-size: 1.1rem;
   }
+  .info_per{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 2.5%;
+  color: #000000;
+  font-size: 20px;
+  display: inline;
+}
+div h1{
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
+div h2{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 50%;
+  color: #FFFFFF;
+}
   article p{
     font-size: 0.8rem;
   }
