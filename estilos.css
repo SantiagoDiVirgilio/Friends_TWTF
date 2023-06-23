@@ -153,7 +153,7 @@ body.lb-disable-scrolling {
 }
 
 .lightbox .lb-image {
-  display: block;
+  display: inline-block;
   height: auto;
   max-width: inherit;
   max-height: none;
@@ -284,8 +284,8 @@ body.lb-disable-scrolling {
   color: #ccc;
 }
 
-.lb-data .lb-details {
-  width: 5%;
+.lb-data .lb-details { /*Opciones del texto agregado de las imágenes*/
+  width: 85%;
   float: left;
   text-align: left;
   line-height: 1.1em;
@@ -462,7 +462,7 @@ footer div h7{
   footer div{
     padding-right: 0%;
     margin-left: 4%;
-    display: inline-block;
+    display: inline-grid;
   }
   footer div a{
     font-family: 'Caveat', cursive;
