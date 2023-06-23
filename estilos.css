@@ -461,7 +461,7 @@ footer div h7{
   footer div{
     padding-right: 0%;
     margin-left: 4%;
-    display: inline-grid;
+    display: inline-block;
   }
   footer div a{
     font-family: 'Caveat', cursive;
@@ -474,7 +474,8 @@ footer div h7{
     margin-top: 7%;
     color: #FFFFFF;
     font-size: 0.9rem;
-    display: inline-grid;
+    display: inline-block;
+    align-items: center;
   }
   .formu{
   margin-top: 2%;
