@@ -25,12 +25,12 @@ nav{
   display: flex;
   position: relative; 
   font-size: 1.3rem;
-  padding-right: 1.4rem;
+  padding-right: 0.9rem;
   text-transform: uppercase;
   color: #000000;
   font-family: 'Caveat', cursive;
   align-items: center;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   list-style: none
 }
 nav ul{
