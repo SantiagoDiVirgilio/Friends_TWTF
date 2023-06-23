@@ -505,6 +505,7 @@ div h2{
     font-size: 0.9rem;
     display: inline-block;
     align-items: center;
+    margin-left: 7%; 
   }
   .formu{
   margin-top: 2%;
