@@ -110,14 +110,14 @@ div nav{
 
 /*Código de Lightbox */
 .lightbox-min{ /*Para las imágenes de la primer fila*/
-	margin-left: 1.7%;
+	margin-left: 3%;
   margin-top: 1.7%;
   width: 40%;
 }
 
 .lightbox-min-2{ /*Para las imágenes de la segunda fila en adelante*/
 	margin-top: 2%; 
-	margin-left: 1.7%;
+	margin-left: 3%;
   width: 40%;
 }
 
@@ -463,7 +463,7 @@ footer div h7{
   }
   footer div{
     padding-right: 0%;
-    margin-left: 4%;
+    margin-left: 89%;
     display: inline-grid;
   }
   footer div a{
