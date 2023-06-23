@@ -285,7 +285,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-details {
-  width: 85%;
+  width: 5%;
   float: left;
   text-align: left;
   line-height: 1.1em;
@@ -457,7 +457,7 @@ footer div h7{
   footer img{
   margin-top: 3%;
   margin-left: 10%;
-  display: inline-grid;
+  display: inline-block;
   }
   footer div{
     padding-right: 0%;
@@ -468,14 +468,14 @@ footer div h7{
     font-family: 'Caveat', cursive;
     color: #FFFFFF;
     font-size: 0.9rem;
-    display: inline-block;
+    display: inline-grid;
   }
   footer div h7{
     font-family: 'Caveat', cursive;
     margin-top: 7%;
     color: #FFFFFF;
     font-size: 0.9rem;
-    display: inline-block;
+    display: inline-grid;
     align-items: center;
   }
   .formu{
