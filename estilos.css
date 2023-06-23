@@ -21,15 +21,16 @@ a{
 	text-decoration: none;
   color: #000000;
 }
-/*
 nav{
-  display: inline-block;
+  display: flex;
   position: relative; 
   font-size: 1.3rem;
   padding-right: 1.4rem;
   text-transform: uppercase;
   color: #000000;
   font-family: 'Caveat', cursive;
+  align-items: center;
+  justify-content: space-around;
 }
 nav ul{
   position: relative; 
@@ -41,7 +42,7 @@ nav ul{
 }
 nav ul li{
   list-style: none;
-}*/
+}
  /* Dropdown */
     .dropdown {
       position: relative;
