@@ -112,6 +112,7 @@ div nav{
 .lightbox-min{ /*Para las imágenes de la primer fila*/
 	margin-left: 1.7%;
   margin-top: 1.7%;
+  width: 6%;
 }
 
 .lightbox-min-2{ /*Para las imágenes de la segunda fila en adelante*/
@@ -124,7 +125,6 @@ div nav{
 	line-height:0;
 	position:absolute;
 	left:0
-  width: 60%;
 }
 
 body.lb-disable-scrolling {
