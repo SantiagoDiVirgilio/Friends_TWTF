@@ -29,6 +29,9 @@ nav ul li{
   color: #000000;
   font-family: 'Caveat', cursive;
 }
+nav ul{
+  display: inline-block;
+}
 div nav{
 	color: #000000;
 	font-family: 'Caveat', cursive;
