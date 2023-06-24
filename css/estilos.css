@@ -97,7 +97,9 @@ p a{
 	max-width: 100%;
   margin-bottom: 1%;
 }
-
+.title_prota{
+  
+}
 .icon_prota{ /*Clase que define el icono de los protagonistas en la seccion "Personajes/Protagonistas"*/
   margin-left: 2.5%;
   margin-top: 3.5%;
