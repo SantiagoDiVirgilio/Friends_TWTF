@@ -110,9 +110,7 @@ p a{
   font-size: 20px;
   display: inline;
 }
-.info_per p{
-  margin-left: 10%;
-}
+
 /*Código de Lightbox */
 .lightbox-min{ /*Para las imágenes de la primer fila*/
 	margin-left: 1.7%;
