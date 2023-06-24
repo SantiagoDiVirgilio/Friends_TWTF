@@ -19,7 +19,6 @@ header{
 }
 a{
 	text-decoration: none;
-  color: #000000;
 }
 nav{
   display: flex;
@@ -61,6 +60,7 @@ nav ul li{
 .dropdown a {
   display: block;
   background-color: transparent;
+  color: #000000;
 }
 .dropdown:hover .dropdown-content {
   display: block;
