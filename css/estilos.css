@@ -78,7 +78,7 @@ p a{
   margin-top: 10%;
   color: #000000;
   font-family: 'Caveat', cursive;
-  border-style: groove;
+  background-image: url("../Imagenes/Fondo.jpg");
   width: 34%;
 }
 
