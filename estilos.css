@@ -81,7 +81,7 @@ div nav{
 .fondo{
 	  width: 100%;
     height: 790px;
-    background-image: url("imagenes/background.jpg");
+    background-image: url("Imagenes/Background.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
