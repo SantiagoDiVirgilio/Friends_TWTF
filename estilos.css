@@ -70,6 +70,9 @@ div nav{
 	color: #000000;
 	font-family: 'Caveat', cursive;
 }
+p a{
+  color: #0645AD;
+}
 .formu{
   margin-left: 32%;
   color: #000000;
