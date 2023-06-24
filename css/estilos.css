@@ -105,12 +105,14 @@ p a{
 }
 .info_per{ /*Clase que define la informacion de los personajes*/
   font-family: 'Caveat', cursive;
-  margin-left: 3.5%;
+  margin-left: 2.5%;
   color: #000000;
   font-size: 20px;
   display: inline;
 }
-
+.info_per p{
+  margin-left: 3%;
+}
 /*Código de Lightbox */
 .lightbox-min{ /*Para las imágenes de la primer fila*/
 	margin-left: 1.7%;
