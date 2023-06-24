@@ -79,10 +79,10 @@ p a{
   color: #000000;
   font-family: 'Caveat', cursive;
   width: 34%;
-  display: inline;
+  display: inline-flex;
 }
 .formu_1{
-  display: inline;
+  display: inline-flex;
 }
 .fondo{
 	  width: 100%;
