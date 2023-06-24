@@ -79,6 +79,7 @@ p a{
   color: #000000;
   font-family: 'Caveat', cursive;
   width: 34%;
+  display: inline;
 }
 
 .fondo{
