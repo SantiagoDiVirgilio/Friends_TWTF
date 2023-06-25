@@ -524,6 +524,11 @@ div h2{
     align-items: center;
     margin-left: 7%; 
   }
+  .caratula_a img{
+    width: 30%; 
+  }
+  .caratula_b{
+    width: 30%; 
   .formu{
   margin-top: 2%;
   margin-left: 5%;
