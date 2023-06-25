@@ -525,11 +525,18 @@ div h2{
     margin-left: 7%; 
   }
   .caratula_a img{
+    margin-top: 3%;
     width: 35%; 
   }
   .caratula_b{
+    margin-top: 3%;
     width: 35%; 
   }
+  .title_logo{
+  margin-top: 4%;
+  margin-left: 29%;
+  width: 30%;
+ }
   .formu{
   margin-top: 2%;
   margin-left: 5%;
@@ -538,5 +545,9 @@ div h2{
   border-style: groove;
   width: 85%;
   }
+  .formu_side{
+  margin-left: 6%;
+  display: inline-block;
+ }
 
 }
