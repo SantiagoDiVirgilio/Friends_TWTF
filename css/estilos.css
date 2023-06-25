@@ -358,6 +358,9 @@ article h3{
 .caratula_a{
   margin-right: 3%; 
 }
+.caratula_b{
+  margin-left: 3%; 
+}
 h3{
 	font-family: 'Caveat', cursive;
 	margin-left: 3%;
