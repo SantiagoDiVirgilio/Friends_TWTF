@@ -74,15 +74,15 @@ p a{
   color: #0645AD;
 }
 .formu{
-  margin-left: 3%;
-  margin-top: 1%;
+  margin-left: 32%;
+  margin-top: 10%;
   color: #000000;
   font-family: 'Caveat', cursive;
   width: 34%;
-  display: inline-flex;
+  display: inline-block;
 }
 .formu_1{
-  display: inline-flex;
+  display: inline-block;
 }
 .fondo{
 	  width: 100%;
