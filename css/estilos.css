@@ -424,6 +424,9 @@ footer div h7{
   nav a{
     color: #000000;
   }
+  p{
+    font-family: 'Roboto', sans-serif;
+  }
   .icon{
     margin-top: 2%;
     float: right; 
