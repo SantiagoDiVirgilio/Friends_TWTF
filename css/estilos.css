@@ -413,7 +413,7 @@ footer div h7{
 
 @media screen and (max-width: 480px){
   nav {
-   margin-left: 1%;
+   margin-left: 20%;
    display: block;   
    width: 100%;
    color: #000000;
@@ -489,16 +489,16 @@ footer div h7{
   color: #000000;
   font-size: 20px;
   display: inline;
-}
-div h1{
-  font-family: 'Roboto', sans-serif;
-  color: #FFFFFF;
-}
-div h2{
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 50%;
-  color: #FFFFFF;
-}
+  }
+  div h1{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+  }
+  div h2{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50%;
+    color: #FFFFFF;
+  }
   article p{
     font-size: 0.8rem;
   }
@@ -508,7 +508,7 @@ div h2{
   display: inline-block;
   }
   footer div{
-    margin-left: 10%;
+    margin-left: 12%;
     display: inline-grid;
   }
   footer div a{
@@ -529,7 +529,7 @@ div h2{
   margin-top: 4%;
   margin-left: 18%;
   width: 4%;
- }
+  }
   .formu{
   margin-top: 2%;
   margin-left: 15%;
