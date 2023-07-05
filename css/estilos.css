@@ -512,20 +512,10 @@ div h2{
     display: inline-grid;
   }
   footer div a{
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-size: 0.9rem;
-    display: inline-block;
-    margin-left: 7%; 
+    display: none; 
   }
   footer div h7{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 7%;
-    color: #FFFFFF;
-    font-size: 0.9rem;
-    display: inline-block;
-    align-items: center;
-    margin-left: 7%; 
+    display: none; 
   }
   .caratula_a img{
     margin-top: 3%;
