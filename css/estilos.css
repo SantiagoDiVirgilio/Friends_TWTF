@@ -43,7 +43,12 @@ nav div ul{
 nav ul li{
   list-style: none;
 }
+
+nav ul li a{
+ background-color: transparent;
+}
  /* Menú desplegable de la versión de escritorio */
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -57,7 +62,7 @@ nav ul li{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
 }
-.dropdown li ul a {
+.dropdown a {
   display: block;
   background-color: transparent;
   color: #000000;
