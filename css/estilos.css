@@ -443,7 +443,7 @@ footer div h7{
   nav.responsive ul li{
     display: block;
     text-align: center;
-    padding: 0rem;
+    padding: 0.3rem;
   }
   nav.responsive ul li a{
     display: block;
@@ -508,7 +508,7 @@ footer div h7{
     font-size: 0.8rem;
   }
   footer img{
-  margin-top: 1%;
+  margin-top: 3%;
   margin-left: 17%;
   display: inline-block;
   }
