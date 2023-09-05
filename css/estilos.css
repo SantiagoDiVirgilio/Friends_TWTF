@@ -44,9 +44,6 @@ nav ul li{
   list-style: none;
 }
 
-nav ul li a{
- background-color: transparent;
-}
  /* Menú desplegable de la versión de escritorio */
 }
 .dropdown {
@@ -58,7 +55,8 @@ nav ul li a{
   position: absolute;
   z-index: 1;
   min-width: 160px;
-  background-color: #DCE3F3;
+  background-color: transparent;
+  /*background-color: #DCE3F3;*/
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
 }
@@ -76,7 +74,7 @@ div nav{
 	font-family: 'Caveat', cursive;
 }
 p a{
-  color: #0da1a1;
+  color: #418242;
 }
 .formu{
   margin-left: 8%;
