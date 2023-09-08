@@ -62,12 +62,14 @@ nav ul li{
 }
 .dropdown a {
   display: block;
-  background-color: transparent;
   color: #000000;
 }
 .dropdown:hover .dropdown-content {
   display: block;
   color: #C9C9C9;
+}
+.dropdown a:hover .dropdown-content {
+background-color: #DCE3F3;
 }
 div nav{
 	color: #000000;
@@ -392,7 +394,7 @@ footer{
 }
 footer img{
   margin-top: 3%;
-  margin-left: 15%;
+  margin-left: 16%;
   display: inline;
 }
 footer div{
