@@ -68,7 +68,7 @@ nav ul li{
   display: block;
   color: #C9C9C9;
 }
-.dropdown-content:hover {
+.dropdown-content a:hover {
 background-color: #DCE3F3;
 }
 div nav{
