@@ -68,6 +68,9 @@ nav ul li{
   display: block;
   color: #C9C9C9;
 }
+.dropdown-content li:hover {
+background-color: #B4BAC6;
+}
 .dropdown-content li a:hover {
 background-color: #B4BAC6;
 }
@@ -105,9 +108,6 @@ p a{
 .fondo img{
 	max-width: 100%;
   margin-bottom: 1%;
-}
-section article div img{
-  margin-top: 1%;
 }
 .title_logo{
   margin-top: 4%;
