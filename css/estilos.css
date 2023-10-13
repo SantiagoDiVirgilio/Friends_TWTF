@@ -464,7 +464,7 @@ footer div h7{
   }
   header div img{
     width: 70%;
-    height: 50%;
+    height: 70%;
   }
   .dropdown-content {
   display: none;
@@ -477,7 +477,7 @@ footer div h7{
 }
   .icon{
     margin-top: 2%;
-    float: right; 
+    float: left; 
     display: block; 
   }
   nav.responsive ul{
