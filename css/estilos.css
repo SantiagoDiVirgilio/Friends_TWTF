@@ -130,11 +130,19 @@ p a{
 .lightbox-min{ /*Para las imágenes de la primer fila*/
 	margin-left: 1.7%;
   margin-top: 1.7%;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
 }
 
 .lightbox-min-2{ /*Para las imágenes de la segunda fila en adelante*/
 	margin-top: 2%; 
 	margin-left: 1.7%;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
 }
 
 .lb-loader,.lightbox{
@@ -349,6 +357,24 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 /*Fin del código de Lightbox*/
+
+/*--------------------------------------- Efecto Zoom en Portadas -----------------------------------------------*/
+img.zoom {
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(0.8); /*0.x --> para adentro // 1.x --> para afuera*/
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+/*--------------------------------------- Efecto Zoom en Portadas -----------------------------------------------*/
 div h1{
 	font-family: 'Caveat', cursive;
 	color: #FFFFFF;
@@ -419,6 +445,7 @@ footer div h7{
   font-size: 0.8rem;
 }
 
+/*-----------------------------------------------VERSIÓN DE MÓBILES----------------------------------------------*/
 @media screen and (max-width: 480px){
   nav {             /*Menú Hamburguesa*/
    margin-left: 5%;
@@ -434,6 +461,10 @@ footer div h7{
   }
   p{
     font-family: 'Roboto', sans-serif;
+  }
+  header div img{
+    width: 1%;
+    height: 1%;
   }
   .dropdown-content {
   display: none;

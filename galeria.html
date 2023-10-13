@@ -81,11 +81,11 @@
 	</article>
 		<section>
 			<div>
-				 <a class="example-image-link" href="Imagenes/Galeria/Imagen_Galeria_1.jpg" data-lightbox="roadtrip" data-title="Set del café “Central Perk” en Warner Bros. Studios."><img class="lightbox-min" src="Imagenes/Miniaturas/Miniatura_1.jpg" alt="Set del café “Central Perk” en Warner Bros. Studios."/></a>
+				 <a href="Imagenes/Galeria/Imagen_Galeria_1.jpg" data-lightbox="roadtrip" data-title="Set del café “Central Perk” en Warner Bros. Studios."><img class="lightbox-min" src="Imagenes/Miniaturas/Miniatura_1.jpg" alt="Set del café “Central Perk” en Warner Bros. Studios."/></a>
 
-				 <a class="example-image-link" href="Imagenes/Galeria/Imagen_Galeria_2.jpg" data-lightbox="roadtrip" data-title="El edificio de Greenwich Village, 90 Bedford Street, utilizado como el bloque de apartamentos de los amigos en el establecimiento de tomas."><img class="lightbox-min" src="Imagenes/Miniaturas/Miniatura_2.jpg" alt="El edificio de Greenwich Village, 90 Bedford Street, utilizado como el bloque de apartamentos de los amigos en el establecimiento de tomas."/></a>
+				 <a class="zoom" href="Imagenes/Galeria/Imagen_Galeria_2.jpg" data-lightbox="roadtrip" data-title="El edificio de Greenwich Village, 90 Bedford Street, utilizado como el bloque de apartamentos de los amigos en el establecimiento de tomas."><img class="lightbox-min" src="Imagenes/Miniaturas/Miniatura_2.jpg" alt="El edificio de Greenwich Village, 90 Bedford Street, utilizado como el bloque de apartamentos de los amigos en el establecimiento de tomas."/></a>
 
-				 <a class="example-image-link" href="Imagenes/Galeria/Imagen_Galeria_3.jpg" data-lightbox="roadtrip" data-title="Intro de la serie."><img class="lightbox-min" src="Imagenes/Miniaturas/Miniatura_3.jpg" alt="Intro de la serie."/></a>
+				 <a class="zoom" href="Imagenes/Galeria/Imagen_Galeria_3.jpg" data-lightbox="roadtrip" data-title="Intro de la serie."><img class="lightbox-min" src="Imagenes/Miniaturas/Miniatura_3.jpg" alt="Intro de la serie."/></a>
 
 				 <a class="example-image-link" href="Imagenes/Galeria/Imagen_Galeria_4.jpg" data-lightbox="roadtrip" data-title="Los seis amigos reunidos en la cafetería Central Perk."><img class="lightbox-min" src="Imagenes/Miniaturas/Miniatura_4.jpg" alt="Los seis amigos reunidos en la cafetería Central Perk."/></a>
 
@@ -165,17 +165,31 @@
 	</footer>
 	<script src="js/lightbox-plus-jquery.min.js"></script>
 
-		<script type="text/javascript">
-        function myFunction() {
-          var x = document.getElementById("menu_hamburguesa");
-          if (x.className === "") {
-              x.className = "responsive";
-            } 
-          else {
-              x.className = "";
-          	}
-		}
-    </script>
+<script type="text/javascript">
+    function myFunction() {
+      var x = document.getElementById("menu_hamburguesa");
+      if (x.className === "") {
+          x.className = "responsive";
+        } 
+      else {
+          x.className = "";
+        }
+    }
+</script>
+
+
+<!-- Script de efecto zoom -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('.zoom').hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+</script>
 </body>
 
 </html>
