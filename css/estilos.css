@@ -463,7 +463,7 @@ footer div h7{
     font-family: 'Roboto', sans-serif;
   }
   header div img{
-    width: 50%;
+    width: 70%;
     height: 50%;
   }
   .dropdown-content {
@@ -478,8 +478,7 @@ footer div h7{
   .icon{
     margin-top: 2%;
     float: right; 
-    display: block;
-    padding: 3%; 
+    display: block; 
   }
   nav.responsive ul{
     display: block;
