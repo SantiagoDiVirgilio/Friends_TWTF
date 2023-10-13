@@ -477,8 +477,9 @@ footer div h7{
 }
   .icon{
     margin-top: 2%;
-    float: left; 
+    float: right; 
     display: block; 
+    margin-right: 2%;
   }
   nav.responsive ul{
     display: block;
