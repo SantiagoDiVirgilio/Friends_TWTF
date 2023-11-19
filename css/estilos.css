@@ -359,13 +359,15 @@ body.lb-disable-scrolling {
 /*Fin del código de Lightbox*/
 
 /*--------------------------------------- Efecto Zoom en Portadas -----------------------------------------------*/
-img.zoom {
-    width: 350px;
-    height: 200px;
+ img.redes{
+    width: 60px;
+    height: 60px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
+    margin-left: 1%;
+    margin-left: 20%;
 }
  
 .transition {
