@@ -358,7 +358,7 @@ body.lb-disable-scrolling {
 }
 /*Fin del código de Lightbox*/
 
-/*--------------------------------------- Efecto Zoom en Portadas -----------------------------------------------*/
+/*--------------------------------------- Efecto Zoom en Imagenes -----------------------------------------------*/
  img.redes{
     width: 55px;
     height: 55px;
@@ -376,7 +376,7 @@ body.lb-disable-scrolling {
     -o-transform: scale(0.8);
     transform: scale(0.8);
 }
-/*--------------------------------------- Efecto Zoom en Portadas -----------------------------------------------*/
+/*--------------------------------------- Efecto Zoom en Imagenes -----------------------------------------------*/
 div h1{
 	font-family: 'Caveat', cursive;
 	color: #FFFFFF;
@@ -438,6 +438,9 @@ footer div a{
   margin-left: 15%;
   color: #FFFFFF;
   font-size: 0.8rem;
+}
+footer div a:hover{
+  color: darkgreen;
 }
 footer div h7{
   font-family: 'Caveat', cursive;
