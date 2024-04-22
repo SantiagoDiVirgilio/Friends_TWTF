@@ -442,6 +442,9 @@ footer div a{
 footer div a:hover{
   color: lightgreen;
 }
+footer div h7:hover{
+  color: lightgreen;
+}
 footer div h7{
   font-family: 'Caveat', cursive;
   margin-top: 7%;
