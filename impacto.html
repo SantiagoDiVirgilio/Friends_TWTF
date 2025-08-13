@@ -89,42 +89,42 @@
 				</p>
 		</article>
 	</section>
-	<footer>
-		<div>
-			<a href="index.html"><strong>Inicio</strong></a>
-		</div>
-		<div>
-			<h7><strong>Personajes</strong></h7>
-			<br><a href="protagonistas.html">Protagonistas</a>
-			<br><a href="secundarios.html">Personajes Secundarios</a>
-			<br><a href="cameos.html">Estrellas Invitadas</a>
-		</div>
-		<div>
-			<h7><strong>¿Que es F·R·I·E·N·D·S?</strong></h7>
-			<br><a href="resumen.html">Resumen</a>
-			<br><a href="origen.html">Origen</a>
-			<br><a href="derivados.html">Derivados</a>
-		</div>
-		<div>
-			<h7><strong>Detrás de Cámaras</strong></h7>
-			<br><a href="produccion.html">Producción</a>
-			<br><a href="impacto.html">Impacto Cultural</a>
-			<br><a href="temporadas.html">Temporadas</a>
-			<br><a href="prensa.html">Datos de Prensa</a>
-		</div>
-		<div>
-			<a href="galeria.html"><strong>Galería</strong></a>
-		</div>
-		<div>
-			<a href="contacto.html"><strong>Contacto</strong></a>
-		</div>
-		<a href="https://es-la.facebook.com/"><img src="Imagenes/Iconos_Personajes/Icono_Facebook.png" alt="Facebook" class="redes"></a>
-		<a href="https://www.instagram.com/"><img src="Imagenes/Iconos_Personajes/Icono_Instagram.png" alt="Instagram" class="redes"> </a>
-		<a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><img src="Imagenes/Iconos_Personajes/Icono_Twitter.png" alt="Twitter" class="redes"></a>
-		<a href="https://www.tiktok.com/es/"><img src="Imagenes/Iconos_Personajes/Icono_TikTok.png" alt="TikTok" class="redes"></a>
-	</footer>
 
-		<script type="text/javascript">
+<footer>
+	<div>
+		<a href="index.html"><strong>Inicio</strong></a>
+	</div>
+	<div>
+		<h7><strong>Personajes</strong></h7>
+		<br><a href="protagonistas.html">Protagonistas</a>
+		<br><a href="secundarios.html">Personajes Secundarios</a>
+		<br><a href="cameos.html">Estrellas Invitadas</a>
+	</div>
+	<div>
+		<h7><strong>¿Que es F·R·I·E·N·D·S?</strong></h7>
+		<br><a href="resumen.html">Resumen</a>
+		<br><a href="origen.html">Origen</a>
+		<br><a href="derivados.html">Derivados</a>
+	</div>
+	<div>
+		<h7><strong>Detrás de Cámaras</strong></h7>
+		<br><a href="produccion.html">Producción</a>
+		<br><a href="impacto.html">Impacto Cultural</a>
+		<br><a href="temporadas.html">Temporadas</a>
+		<br><a href="prensa.html">Datos de Prensa</a>
+	</div>
+	<div>
+		<a href="galeria.html"><strong>Galería</strong></a>
+	</div>
+	<div>
+		<a href="contacto.html"><strong>Contacto</strong></a>
+	</div>
+	<a href="https://es-la.facebook.com/" target="_blank"><img src="Imagenes/Iconos_Personajes/Icono_Facebook.png" alt="Facebook" class="redes"></a>
+	<a href="https://www.instagram.com/" target="_blank"><img src="Imagenes/Iconos_Personajes/Icono_Instagram.png" alt="Instagram" class="redes"> </a>
+	<a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" target="_blank"><img src="Imagenes/Iconos_Personajes/Icono_Twitter.png" alt="Twitter" class="redes"></a>
+</footer>
+
+	<script type="text/javascript">
         function myFunction() {
           var x = document.getElementById("menu_hamburguesa");
           if (x.className === "") {
@@ -135,5 +135,20 @@
           	}
 		}
     </script>
+
+    <!-- Script de efecto zoom -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('.redes').hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+</script>
 </body>
+
+>>>>>>> Stashed changes
 </html>
