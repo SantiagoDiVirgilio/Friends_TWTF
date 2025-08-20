@@ -125,7 +125,7 @@ p a{
   display: inline;
 }
 
-/*Código de Lightbox */
+/*-----------------------------------------------Código de Lightbox-----------------------------*/
 .lightbox-min{ /*Para las imágenes de la primer fila*/
 	margin-left: 1.7%;
   margin-top: 1.7%;
