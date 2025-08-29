@@ -165,6 +165,8 @@
 </footer>
     <!-- Script de efecto zoom -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+
 <script>
 $(document).ready(function(){
     $('.lightbox-min').hover(function() {
@@ -175,28 +177,16 @@ $(document).ready(function(){
 });
 </script>
 
-	<script type="text/javascript">
-        function myFunction() {
-          var x = document.getElementById("menu_hamburguesa");
-          if (x.className === "") {
-              x.className = "responsive";
-            } 
-          else {
-              x.className = "";
-          	}
+<script type="text/javascript">
+	function myFunction() {
+    var x = document.getElementById("menu_hamburguesa");
+    	if (x.className === "") {
+            x.className = "responsive";
+           } 
+        else {
+            x.className = "";
 		}
-    </script>
-
-
-
-<script>
-$(document).ready(function(){
-    $('.redes').hover(function() {
-        $(this).addClass('transition');
-    }, function() {
-        $(this).removeClass('transition');
-    });
-});
+	}
 </script>
 </body>
 </html>
